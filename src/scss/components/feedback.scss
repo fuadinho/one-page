@@ -1,0 +1,29 @@
+.c-feedback {
+    width: 220px; //stvarni width definirat kasnije u projektu.
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    align-items: flex-end;
+
+    &__icon {
+        margin-right: 15px;
+    }
+
+    &__image {
+        width: 34px;
+        height: 34px;
+    }
+
+    &__number {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    &__description {
+        font-family: $font-family-primary;
+    }
+
+    &__text {
+        font-size: 12px;
+    }
+}

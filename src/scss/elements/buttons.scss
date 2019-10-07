@@ -1,0 +1,19 @@
+.e-btn {
+  width: 150px;
+  background-color: $color-secondary;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+
+  &__text {
+    color: $color-txt-light;
+    font-family: $font-family-primary;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color-secondary;
+    background-color: $color-txt-light
+
+  }
+}

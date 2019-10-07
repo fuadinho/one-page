@@ -1,0 +1,27 @@
+.s-hero {
+    width: 100%;
+    background-image: url('/src/assets/images/hero_image.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+
+.c-hero {
+
+    &__wrapper {
+        width: 100%;
+        max-width: 50%;
+        margin-left: auto;
+        padding-top: 25%;
+        padding-bottom: 30%;
+    }
+
+    &__title {
+        padding-bottom: 10px;
+    }
+
+    &__description {
+        padding-bottom: 20px;
+    }
+}
+

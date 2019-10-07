@@ -1,0 +1,34 @@
+.c-skill {
+    width: 500px;
+
+    &__header {
+        font-family: $font-family-primary;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        display: inline-block;
+    }
+
+    &__percentage {
+        display: inline-block;
+        padding-left: 10px;
+    }
+
+    &__bar {
+        height: 3px;
+        width: 100%;
+        background-color: $color-primary-light;
+        position: relative;
+    }
+
+    &__barFill {
+        background-color: $color-secondary;
+        height: 3px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+}

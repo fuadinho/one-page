@@ -1,0 +1,30 @@
+.c-service {
+    width: 255px;
+    text-align: center;
+
+    &__icon {
+        padding: 10px;
+    }
+
+    &__image {
+        width: 54px;
+        height: 54px;
+    }
+
+    &__content {
+
+    }
+
+    &__title {
+        font-family: $font-family-primary;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    &__paragraph {
+        font-family: $font-family-primary;
+        font-family: 16px;
+        color: $color-txt-primary;
+        padding-top: 12px;
+    }
+}

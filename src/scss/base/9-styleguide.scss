@@ -1,0 +1,16 @@
+body {
+    line-height: 1.45;
+}
+
+.heading-primary {
+    font-size: 32px;
+    font-family: $font-family-primary;
+    font-weight: bold;
+}
+
+
+.paragraph {
+    font-size: 16px;
+    font-family: $font-family-primary;
+    color: $color-txt-primary;
+}
